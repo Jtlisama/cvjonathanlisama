@@ -1,0 +1,340 @@
+
+
+body{
+    font-size: 18px;
+    margin: 0;
+    background-color: #fff;
+    color: #333;
+    font-family: "Hind","Avenir","Helvetica",arial;
+    font-weight: 400;
+    line-height: 1.612;
+}
+
+
+.header-conteiner{
+    position: fixed;
+}
+header{
+    
+    position: fixed;
+    background: #17474b;
+    border-bottom: 5px solid #2e909a;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 15px 20px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.3);
+}
+li, a{
+   display: inline;
+   color: #fff;
+   margin-left: 0.3rem;
+   margin-right: 0.3rem;
+   text-decoration: none;
+
+}
+.fondo-azul{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    height: 380px;
+    max-width: 100% ;
+    max-height: 380px;
+    background: #52c0cb;
+    clip-path: polygon(0 0,100% 0,100% 100%,0 94%);
+}
+.presentation-conteiner  {
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+
+    background: #52c0cb;
+    height: 355px;
+  
+    max-width: 100% ;
+    max-height: 355px;
+
+    
+}
+
+.main-conteiner{
+    float: right;
+    padding-left: 3.8rem;
+    
+}
+.logo-conteiner{
+    float: left;
+    position: absolute;
+    top: 0.7rem;
+    right: 3rem;
+    bottom: 0;
+    left: 2rem;
+    width: 47px;
+    height: 47px;
+
+    
+}
+.icon:hover{
+    width: 43px;
+    height: 43px;
+
+}
+
+
+.div-frase1{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 37px;
+    padding-top: 8rem;
+    color: #fff;
+    text-align: center;
+    
+    
+}
+.div-frase2{
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.div-btn-animado{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-top: 1rem;
+
+}
+.a1{
+padding-top: 2rem;
+   
+}
+
+#animedesc:after{
+    
+	content: "";
+	width: 100%;
+	height: 1px;
+	background: rgba(255,255,255,0.6);
+	position: absolute;
+	top: 60%;
+	left: 0;
+	z-index: 1;
+}
+
+.botonacceso{
+    
+	background: #fff;
+	font-family: 'Franklin Gothic Medium';
+    color: #267ad9;
+	padding: 15px 30px;	
+	text-decoration: none;
+	font-size: 15px;
+	text-align: left;
+	margin: 10px;
+	border-radius: 50px;
+	position: relative;
+    
+	font-weight: normal;
+	display: inline-block;	
+	z-index: 3;
+}
+.botonacceso:hover{
+	background: #267ad9;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#animedesc:hover span{
+	width: 500px;
+	left: 50%;
+	margin-left: -250px;
+}
+
+#animedesc span{
+	width: 200px;
+	height: 3px;
+	border-radius: 2px;
+    background: #267ad9;
+    
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	margin-left: -100px;
+	margin-top: -1px;
+	z-index: 2;
+	transition: all .25s ease-in-out;
+   -moz-transition: all .25s ease-in-out;
+   -webkit-transition: all .25s ease-in-out;
+   -o-transition: all .25s ease-in-out;
+}
+
+
+.logo-conteiner:hover{
+        border-color: rgb(3, 240, 248);
+
+  
+}
+
+.footer{
+    margin-top: 4rem;
+    width: auto;
+    height: auto;
+    background: #17474b;
+    color: #adabab;
+    font-size: normal;
+    text-align: center;
+}
+
+.title-conteiner{
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+   
+    border-bottom: none;
+    padding: 0;
+
+}
+.line-decoration{
+    width: 50%;
+    border: none;
+    height: 1px;
+    background: #dedede;
+    margin-top: -0.8rem; 
+}
+.lineb-decoration{
+    width: 100%;
+    border: none;
+    height: 01px;
+    background: #dedede;
+    margin-top: 0.9rem;
+}
+
+
+
+.icontitle-conteiner{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    
+}
+
+.title{
+font-size: 1.5rem;
+margin-left: 0.5rem;
+margin-top: 0.14rem;
+margin-bottom: 0;
+
+
+}
+.section-conteiner{
+padding-left: 2rem;
+padding-top: 2rem;
+padding-right: 2rem;
+}
+
+.sub-contenedor{
+    
+    height: auto;
+    margin: auto;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+.sub2-contenedor{
+    padding-top:0.8rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+ 
+}
+.div-copy{
+    padding-top: 2rem;
+}
+
+/*EXPERIMENTAL*/
+#copia {
+    max-width: 100% ;
+    max-height: 355px;
+    position: fixed;
+    transition: top 1500ms cubic-bezier(.5,.33,.3,.9) 200ms; 
+    /*background: linear-gradient(#d42020, #ff9a9a, #dee0e4, #6b8b97, #75040c) no-repeat; */
+}
+#original{
+    visibility: hidden;
+    
+}
+
+#conocimiento{
+    padding: 5rem;
+}
+.conteiner-juntos{
+display:flex;
+height: auto;
+}
+
+.photo-jt{
+    border-radius: 6%;
+    padding-top: 1rem;
+
+}
+.part2-conteiner{
+    padding-left: 1.5rem;
+}
+.esti-a{
+    color: #333;
+    font-size: 17px;
+    font-weight: bold;
+}
+.esti-b{
+    padding-left: 2rem;
+    color: #2e909a;
+    font-size: 17px;
+    font-weight: bold;
+}
+.div-arriba{
+    padding-top: 0.2rem;
+}
+
+
+
+#seventyfive:checked ~ .progress > .progress-bar {
+	width: 75%;
+	background-color: #f2d31b;
+}
+.html-conteiner{
+    padding-left: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.html-conteiner-tema{
+    
+    color: #17b4c5;
+    padding-top: 1.4rem;
+    padding-left: 4rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.html-conteiner-temab{
+    
+    color: #17b4c5;
+    padding-top: 1.4rem;
+    padding-left: 16rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.p-estilo{
+    padding-left: 0.7rem;
+    color: #17b4c5;
+    font-size: 0.90rem;
+    font-weight: bold;
+}
